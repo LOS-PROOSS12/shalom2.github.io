@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+body{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #171717;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+.navbar{
+    display: flex;
+    margin-right: 10px;
+}
+.logo{
+    margin-left: 30px;
+}
+.logo a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.navbar a{
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+   
+}
+.navbar a:hover{
+    background: #efb810;
+}
+.hader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background: url(img/siu.jpg) no-repeat center ;
+    background-size: cover;
+    padding-bottom: 50px;
+}
+
+.title{
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #efb810;
+    padding-bottom: 70px;
+}
+p{
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    padding: 0 100px;
+
+}
+.btn{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #efb810;
+    color: #fff;
+    text-decoration: none;
+    background: #efb810;
+}
+.btn:hover{
+    background: none;
+}
+.contiene{
+    height: 130vh;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.sau{
+    padding: 100px 0;
+    background: #303030;
+}
+.box-envase{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: centers;
+}
+.box-envase .box{
+    height: 170px;
+    width: 270px;
+    background: #171717;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow:  0 5px 5px rgba(0, 0, 0, .3);
+    margin: 20px;
+}
+.box-envase .box i{
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: #0a0a0a;
+    font-size: 25px;
+    margin: 10px 0;
+}
+.box-envase .box h3{
+    font-size: 20px;
+    color: #efb810;
+}
+.box-envase .box p{
+    padding: 0 15px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.acerca-de{
+    background: #303030;
+    padding: 150px 0;
+    display:flex;
+    padding-top: 150px;
+    background: url(img/edson.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+
+.box-contiene2{
+    display: flex;
+    justify-content: center;
+    padding-top:50px;
+    flex-wrap: wrap;
+}
+.box-contiene2 .box{
+    width: 250px;
+    padding-bottom: 20px;
+    text-align: center;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .3);
+    background: #171717;
+    margin: 20px 20px;
+}
+.box-contiene2 .box img{
+    height: 70px;
+    width: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: -50px;
+    border: 6px solid#efb810;
+}
+.box-contiene2 .box h3{
+    font-size: 20px;
+    color: #efb810;
+    padding-top: 10px;
+
+}
+.box-contiene2 .box p{
+    font-size: 18px;
+    color: #fff;
+    padding: 0;
+
+}
+
+.contacto{
+    padding: 10px 0;
+    background: url(img/llllll.jpg) no-repeat center ;
+    padding-bottom:50;
+    height:1000px;
+    width: 100%;
+
+}
+.footer-section{
+    display: flex;
+
+}
+.f-enlaces{
+    display: flex;
+    flex-direction: column;
+    margin: 0 100px;
+}
+.f-enlaces a{
+    color:#Fff;
+    text-decoration: none;
+    margin-top: 20px;
+}
+@media (max-width: 768px){
+    p{
+        padding: 0 50px;
+    }
+    .title{
+        margin-bottom: 0px;
+        font-size: 40px;
+    }
+    .sau{
+        height: 80vh;
+        padding: 50px 0;
+    }
+    .aserca-de{
+        height: 100vh;
+        padding: 50px 0;
+    }
+    .footer-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .f-enlaces{
+        display: none;
+
+    }
+    .navbar{
+        display: none;
+
+    }
+}
+.fotos img{
+    border-radius: 100%;
+    padding-top: -50px;
+}
+.fotos p{
+    color: #c2c514f5;
+    font-size: 30px;
+
+}
+marquee{
+    padding-top: 50px;
+    font-size: 50px;
+    font-family:Franklin Gothic Medium;
+    color: #efb810;
+}
+
+.contiene-ubi p{
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #efb810;
+    padding-bottom: 70px; 
+}
